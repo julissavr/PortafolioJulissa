@@ -85,3 +85,49 @@ p{
 	font-size: 100px;
 	color: var(--color-rosado)
 }
+
+#contact{
+	background-color: var(--color-rosado);
+	padding:8% 0;
+	
+	
+}
+#contact h4{
+	font-family: "ProximaNova";
+	font-size: 40px;
+	color: var(--color-azul);
+}
+
+.icon-contact{
+	font-size: 80px;
+	color: var(--color-azul)
+}
+
+
+
+
+
+
+
+
+/*tablet*/
+
+@media (min-width:600px) and (max-width: 1200px) { 
+
+	
+ }
+
+
+/*celular*/
+@media (max-width: 600px) { 
+	
+	#hero h1{
+	font-size: 16px;
+	}
+	
+	.titulo{
+		font-size: 40px;
+	}
+	
+
+ }
