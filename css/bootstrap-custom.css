@@ -84,7 +84,7 @@ a{
 
 
 .navbar-toggler i{
-	color: #FFFFFF;
+	color: var(--color-azul);
 	font-size: 30px;
 }
 
