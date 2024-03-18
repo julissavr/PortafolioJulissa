@@ -164,7 +164,7 @@ p{
 #contact h4{
 	padding-top: 3%;
 	font-family: "ProximaNova-Bold";
-	font-size: 20px;
+	font-size: 15px;
 	text-align: center;
 	color:var(--color-texto);
 		margin-top:40px;
@@ -209,15 +209,18 @@ p{
 	
 	#about img{
 		margin-left: 6%;
+		width: 300px;
 	}
 	
 	#projects img{
-		margin-left: 6%;
+		margin-left: 8%;
+		width: 300px;
 	}
 	
 	#posters img{
 		margin-left: 1%;
 		margin-bottom: 5%;
+		width: 300px;
 	}
 	
 
