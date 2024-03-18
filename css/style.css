@@ -1,0 +1,87 @@
+@font-face{
+	font-family: "EditorialNewItalic";
+	src: url( "../fonts/PPEditorialNew-Italic.ttf") format("TrueType");
+}
+
+@font-face{
+	font-family: "ProximaNova";
+	src: url( "../fonts/ProximaNova-Regular.ttf") format("TrueType");
+}
+
+:root{
+	--color-general: #F2F1EE;
+	--color-rosado: #E8CDDC;
+	--color-azul: #084679;
+	--color-texto: #191717;
+}
+
+body{
+	font-family: "ProximaNova", sans-serif;
+	font-size: 16px;
+	color: var(--color-texto);
+	line-height: 1.8;
+}
+header{
+	background-color: var(--color-general);
+	color: var(--color-general);
+	padding: 15px 0;
+}
+
+
+#hero{
+	background-color:#ffffff;
+	padding:8% 0;
+	text-align:center;
+	}
+
+#hero h1{
+	font-weight: 600;
+	font-size: 30px;
+	color: var(--color-azul);
+	margin-right: 20%;
+	text-align: right;
+}
+
+/*about*/
+#about{
+	background-color: var(--color-general);
+	padding:8% 0;
+	
+}
+#about img{
+	border-radius: 40px;
+	width:400px;
+}
+
+.titulo{
+	font-family: "EditorialNewItalic";
+	font-size: 90px;
+	padding-bottom: 2%;
+	padding-top: 5%
+}  
+
+p{
+	font-family: "ProximaNova";
+	font-size: 20px;
+	color: var(--color-texto);
+	text-align:left;
+	font-weight: 250;
+	margin-top: 70px;
+}
+
+#skills{
+	font-family: "ProximaNova";
+	background-color: var(--color-azul);
+	padding:3% 0;
+
+	
+}
+#skills h3{
+	font-family: "EditorialNewItalic";
+	font-size: 40px;
+	color: var(--color-general);
+}
+.icon{
+	font-size: 100px;
+	color: var(--color-rosado)
+}
